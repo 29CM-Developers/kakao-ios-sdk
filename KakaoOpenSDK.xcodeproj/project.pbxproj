@@ -47,7 +47,6 @@
 		CB857D13A2B756A6051EBC03 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948110D0ADCE4C673D83505 /* UserShippingAddresses.swift */; };
 		D36C77329795F40DE6F41D7C /* SdkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10456FB7BA90C7B8B39F73 /* SdkError.swift */; };
 		D478D21F3972C267AC8B0F19 /* AuthRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B7662968356D271181B22F /* AuthRequestRetrier.swift */; };
-		D6C6EC090795ADFBDE85DC9B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38C69F3D0FAB76181CD0AAD /* Alamofire.framework */; };
 		D83CC49FD9E905F67CF2CB8E /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0518143C7B074D8C95AA4 /* AccessTokenInfo.swift */; };
 		DEA959ECACD73EA21318EAAA /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4F028225D75836BF9F442 /* UserApi.swift */; };
 		EDDB71F393AB45B4D4541C57 /* KakaoSDKCommon.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */; };
@@ -279,7 +278,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C6EC090795ADFBDE85DC9B /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
