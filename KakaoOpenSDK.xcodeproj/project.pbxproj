@@ -23,12 +23,9 @@
 		F2FAC4A72B2946FD002342D7 /* AuthRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4982B2946FD002342D7 /* AuthRequestRetrier.swift */; };
 		F2FAC4A82B2946FD002342D7 /* MigrateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4992B2946FD002342D7 /* MigrateManager.swift */; };
 		F2FAC4A92B2946FD002342D7 /* TokenManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC49A2B2946FD002342D7 /* TokenManagable.swift */; };
-		F2FAC4AA2B2946FD002342D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC49B2B2946FD002342D7 /* README.md */; };
 		F2FAC4AB2B2946FD002342D7 /* OAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC49D2B2946FD002342D7 /* OAuthToken.swift */; };
-		F2FAC4AC2B2946FD002342D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC49F2B2946FD002342D7 /* Info.plist */; };
 		F2FAC4CB2B294721002342D7 /* ApiRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4AF2B294721002342D7 /* ApiRequestAdapter.swift */; };
 		F2FAC4CC2B294721002342D7 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B02B294721002342D7 /* Api.swift */; };
-		F2FAC4CD2B294721002342D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4B12B294721002342D7 /* README.md */; };
 		F2FAC4CE2B294721002342D7 /* EncodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B42B294721002342D7 /* EncodingContainer+AnyCollection.swift */; };
 		F2FAC4CF2B294721002342D7 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B52B294721002342D7 /* URL+Utils.swift */; };
 		F2FAC4D02B294721002342D7 /* Data+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B62B294721002342D7 /* Data+Utils.swift */; };
@@ -48,24 +45,17 @@
 		F2FAC4DE2B294721002342D7 /* AuthErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C62B294721002342D7 /* AuthErrorInfo.swift */; };
 		F2FAC4DF2B294721002342D7 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C72B294721002342D7 /* ErrorInfo.swift */; };
 		F2FAC4E02B294721002342D7 /* KakaoSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C82B294721002342D7 /* KakaoSDKCommon.swift */; };
-		F2FAC4E12B294721002342D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4CA2B294721002342D7 /* Info.plist */; };
-		F2FAC4EB2B294755002342D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4E42B294755002342D7 /* README.md */; };
 		F2FAC4EC2B294755002342D7 /* SharingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E62B294755002342D7 /* SharingResult.swift */; };
 		F2FAC4ED2B294755002342D7 /* ImageUploadResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E72B294755002342D7 /* ImageUploadResult.swift */; };
 		F2FAC4EE2B294755002342D7 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E82B294755002342D7 /* ValidationResult.swift */; };
 		F2FAC4EF2B294755002342D7 /* ShareApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E92B294755002342D7 /* ShareApi.swift */; };
-		F2FAC4F02B294755002342D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4EA2B294755002342D7 /* Info.plist */; };
-		F2FAC4F72B294787002342D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4F32B294787002342D7 /* README.md */; };
 		F2FAC4F82B294787002342D7 /* TemplateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4F52B294787002342D7 /* TemplateModels.swift */; };
-		F2FAC4F92B294787002342D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4F62B294787002342D7 /* Info.plist */; };
 		F2FAC5052B2947A6002342D7 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4FB2B2947A6002342D7 /* UserApi.swift */; };
-		F2FAC5062B2947A6002342D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4FC2B2947A6002342D7 /* README.md */; };
 		F2FAC5072B2947A6002342D7 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4FE2B2947A6002342D7 /* Scope.swift */; };
 		F2FAC5082B2947A6002342D7 /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4FF2B2947A6002342D7 /* AccessTokenInfo.swift */; };
 		F2FAC5092B2947A6002342D7 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC5002B2947A6002342D7 /* UserShippingAddresses.swift */; };
 		F2FAC50A2B2947A6002342D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC5012B2947A6002342D7 /* User.swift */; };
 		F2FAC50B2B2947A6002342D7 /* UserServiceTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC5022B2947A6002342D7 /* UserServiceTerms.swift */; };
-		F2FAC50C2B2947A6002342D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC5032B2947A6002342D7 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -700,8 +690,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FAC4AC2B2946FD002342D7 /* Info.plist in Resources */,
-				F2FAC4AA2B2946FD002342D7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,8 +697,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FAC4F92B294787002342D7 /* Info.plist in Resources */,
-				F2FAC4F72B294787002342D7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,8 +704,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FAC4E12B294721002342D7 /* Info.plist in Resources */,
-				F2FAC4CD2B294721002342D7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,8 +711,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FAC4F02B294755002342D7 /* Info.plist in Resources */,
-				F2FAC4EB2B294755002342D7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,8 +718,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FAC50C2B2947A6002342D7 /* Info.plist in Resources */,
-				F2FAC5062B2947A6002342D7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
