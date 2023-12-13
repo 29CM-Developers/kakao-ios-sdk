@@ -13,7 +13,6 @@
 		6496C868786F0B816FB24E47 /* KakaoSDKCommon.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */; };
 		793CB7E08CBB14A458D7CA64 /* KakaoSDKAuth.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 9AFC260A8C2D21C7599563DD /* KakaoSDKAuth.framework */; };
 		B37BF2CA54417589347BED47 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14F43583C099CA87EC702CF /* Scope.swift */; };
-		B4DF9FD6E56F72FB3838AE6E /* TemplateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1841EE9773FD21A3F75980 /* TemplateModels.swift */; };
 		CB857D13A2B756A6051EBC03 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948110D0ADCE4C673D83505 /* UserShippingAddresses.swift */; };
 		D83CC49FD9E905F67CF2CB8E /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0518143C7B074D8C95AA4 /* AccessTokenInfo.swift */; };
 		DEA959ECACD73EA21318EAAA /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4F028225D75836BF9F442 /* UserApi.swift */; };
@@ -62,6 +61,9 @@
 		F2FAC4EE2B294755002342D7 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E82B294755002342D7 /* ValidationResult.swift */; };
 		F2FAC4EF2B294755002342D7 /* ShareApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E92B294755002342D7 /* ShareApi.swift */; };
 		F2FAC4F02B294755002342D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4EA2B294755002342D7 /* Info.plist */; };
+		F2FAC4F72B294787002342D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4F32B294787002342D7 /* README.md */; };
+		F2FAC4F82B294787002342D7 /* TemplateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4F52B294787002342D7 /* TemplateModels.swift */; };
+		F2FAC4F92B294787002342D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FAC4F62B294787002342D7 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,7 +263,10 @@
 		F2FAC4E82B294755002342D7 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
 		F2FAC4E92B294755002342D7 /* ShareApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareApi.swift; sourceTree = "<group>"; };
 		F2FAC4EA2B294755002342D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE1841EE9773FD21A3F75980 /* TemplateModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateModels.swift; sourceTree = "<group>"; };
+		F2FAC4F22B294787002342D7 /* KakaoSDKTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKTemplate.h; sourceTree = "<group>"; };
+		F2FAC4F32B294787002342D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2FAC4F52B294787002342D7 /* TemplateModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateModels.swift; sourceTree = "<group>"; };
+		F2FAC4F62B294787002342D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,14 +351,6 @@
 			path = InfoPlists;
 			sourceTree = "<group>";
 		};
-		7E51185B535DA583B33C18D9 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				FE1841EE9773FD21A3F75980 /* TemplateModels.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		AA22D1E92CF37374E7CE9C92 /* Project */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,21 +379,13 @@
 		B88DCE11BE6D4703A4D53DFA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F2FAC4F12B294787002342D7 /* KakaoSDKTemplate */,
 				F2FAC4E22B294755002342D7 /* KakaoSDKShare */,
 				F2FAC4AD2B294721002342D7 /* KakaoSDKCommon */,
 				F2FAC48F2B2946FD002342D7 /* KakaoSDKAuth */,
-				BFCEC6D9A3BC7CE2CEFDD940 /* KakaoSDKTemplate */,
 				AFDA258F78CB70F3001C9C53 /* KakaoSDKUser */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		BFCEC6D9A3BC7CE2CEFDD940 /* KakaoSDKTemplate */ = {
-			isa = PBXGroup;
-			children = (
-				7E51185B535DA583B33C18D9 /* model */,
-			);
-			path = KakaoSDKTemplate;
 			sourceTree = "<group>";
 		};
 		F2FAC48F2B2946FD002342D7 /* KakaoSDKAuth */ = {
@@ -528,6 +517,26 @@
 				F2FAC4E62B294755002342D7 /* SharingResult.swift */,
 				F2FAC4E72B294755002342D7 /* ImageUploadResult.swift */,
 				F2FAC4E82B294755002342D7 /* ValidationResult.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F2FAC4F12B294787002342D7 /* KakaoSDKTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4F22B294787002342D7 /* KakaoSDKTemplate.h */,
+				F2FAC4F32B294787002342D7 /* README.md */,
+				F2FAC4F42B294787002342D7 /* model */,
+				F2FAC4F62B294787002342D7 /* Info.plist */,
+			);
+			name = KakaoSDKTemplate;
+			path = sources/KakaoSDKTemplate;
+			sourceTree = SOURCE_ROOT;
+		};
+		F2FAC4F42B294787002342D7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4F52B294787002342D7 /* TemplateModels.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -691,6 +700,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FAC4F92B294787002342D7 /* Info.plist in Resources */,
+				F2FAC4F72B294787002342D7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,7 +778,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DF9FD6E56F72FB3838AE6E /* TemplateModels.swift in Sources */,
+				F2FAC4F82B294787002342D7 /* TemplateModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
