@@ -8,52 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		0234DED9F9A5025A3B22C997 /* KakaoSDKTemplate.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A2D196A7B29975B17592DF93 /* KakaoSDKTemplate.framework */; };
-		06DEAF796B9072961C8CECFF /* DecodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057EDABEC77607F987B4FCD /* DecodingContainer+AnyCollection.swift */; };
-		0E31EE5846122171BDAEE748 /* KakaoSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E929032CDCBA30976BA07177 /* KakaoSDKCommon.swift */; };
-		1083830E239AC6DCA623D414 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11D7251BB7CC085DC6FDA46 /* Urls.swift */; };
-		1EA8C330BBDC81379F4BCA82 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E6D2DE6EB3DC793433CB8 /* User.swift */; };
-		207B6CE3525E5A958DEE1C4C /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029348E4D5A43BB767DEC541 /* AuthApi.swift */; };
-		224F5C1E8021C315F3C9C239 /* ShareApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF4E5D7DC2DA1C4CF17A1D /* ShareApi.swift */; };
-		234D7809A8B0829F534700C6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76280ED49906035104F24BC /* Common.swift */; };
-		2CFA6BACF647C253767C7BDB /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D871BE994AAA4F2275B619 /* Date+Utils.swift */; };
-		3A29C66078FBD8BC4CA5172C /* MigrateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AC99A4E0154DA932F90B84 /* MigrateManager.swift */; };
-		3D838F46566C63FC04D8EDFC /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77679BCAE026A439A0BF589D /* Properties.swift */; };
-		49680630C7F1B66638C012CB /* UserServiceTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A8974F72C895F697E3836 /* UserServiceTerms.swift */; };
-		497BCF1F0E3760A9A6E3D278 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878AC4DC846769CEF6C5066 /* TokenManager.swift */; };
-		4E38470AB06D559ED4EBBDEF /* TokenManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08EC897B8BF00956812E71F /* TokenManagable.swift */; };
-		50C5B57A54FF356D521AE9A2 /* AuthRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ECD15CEA35FB0FF6A34060 /* AuthRequestAdapter.swift */; };
-		5B64DC45FD9E74772DEEEA1D /* SdkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8B01ADFAC0B3D3545E121 /* SdkLog.swift */; };
-		5DCD033C930668E1E9A4B12E /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E19D54414C72BF77675B83 /* Array+Utils.swift */; };
-		60405CA75AE48B453FDF84AC /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71496B160CA750902A24C4C /* ValidationResult.swift */; };
-		61D6CD66DC4805A704605B4E /* ApiRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4244622EDE1F4E07D486D0C /* ApiRequestAdapter.swift */; };
 		6496C868786F0B816FB24E47 /* KakaoSDKCommon.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */; };
-		66F18B39FD1E20031DD4FEB7 /* SdkCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F956F1181223D0A595E83083 /* SdkCrypto.swift */; };
 		793CB7E08CBB14A458D7CA64 /* KakaoSDKAuth.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 9AFC260A8C2D21C7599563DD /* KakaoSDKAuth.framework */; };
-		7BDADE904341E9CDDE68A782 /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8AE647C1EB94FD865EA22 /* Dictionary+Utils.swift */; };
-		84D117B77D2A327F0BF1C4ED /* SdkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E7B7815B32EF96A92FE42A /* SdkUtils.swift */; };
-		88893378866D0FBAD4A5BF4E /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34E13320151E055BFC74B3 /* Api.swift */; };
-		88C2AC3EA77317E595E5CBBF /* EncodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD76C8A4F14C62F102C532B /* EncodingContainer+AnyCollection.swift */; };
-		8F9590AB774C8327E48F533B /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F08872C5FC79187040E8C3 /* URL+Utils.swift */; };
-		9916EAD0D7C51D8C8EA0FA49 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8DB725D827265FA926EB57 /* Auth.swift */; };
-		A0BFD2C651142313E9801372 /* SdkCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B29B8FC9CDE020440A8458 /* SdkCoder.swift */; };
-		B2375C6049006E4125AE5F8A /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7CC90257247C2BCADF806 /* ErrorInfo.swift */; };
-		B35EE7CE2B95EDCEACBB1333 /* AuthErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FDAE89DC6F794C46B7C07 /* AuthErrorInfo.swift */; };
-		B37BF2CA54417589347BED47 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14F43583C099CA87EC702CF /* Scope.swift */; };
-		B4DF9FD6E56F72FB3838AE6E /* TemplateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1841EE9773FD21A3F75980 /* TemplateModels.swift */; };
-		B6C1D92AAD9027F6DC244B82 /* ImageUploadResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111CD8A5239C7077BDB422B /* ImageUploadResult.swift */; };
-		BF63A8B3305DBC974B801470 /* Data+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C23A8696A36355257E006F /* Data+Utils.swift */; };
-		C0781C8D2BF0F2503E68FFB4 /* SharingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15638190DB41DD8FD05744C8 /* SharingResult.swift */; };
-		C34C90F889D5987ED71B7F96 /* OAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F8ADE7A6F076FE225B8A7 /* OAuthToken.swift */; };
-		CB857D13A2B756A6051EBC03 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948110D0ADCE4C673D83505 /* UserShippingAddresses.swift */; };
-		D36C77329795F40DE6F41D7C /* SdkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D10456FB7BA90C7B8B39F73 /* SdkError.swift */; };
-		D478D21F3972C267AC8B0F19 /* AuthRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B7662968356D271181B22F /* AuthRequestRetrier.swift */; };
-		D83CC49FD9E905F67CF2CB8E /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D0518143C7B074D8C95AA4 /* AccessTokenInfo.swift */; };
-		DEA959ECACD73EA21318EAAA /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4F028225D75836BF9F442 /* UserApi.swift */; };
 		EDDB71F393AB45B4D4541C57 /* KakaoSDKCommon.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */; };
 		F1C77979DF4D6E97A87B49DB /* KakaoSDKCommon.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */; };
 		F2E4395A2B22AA36005236C3 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2E439592B22AA36005236C3 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F422EF6C4C97F6066534D1ED /* UIApplication+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F41893A1C85D8ACD907CA7 /* UIApplication+Utils.swift */; };
-		FD7044C284A10965D2619C10 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A0D89A1F17E82D5897B1B /* AuthController.swift */; };
+		F2FAC4A02B2946FD002342D7 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4912B2946FD002342D7 /* Auth.swift */; };
+		F2FAC4A12B2946FD002342D7 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4922B2946FD002342D7 /* AuthApi.swift */; };
+		F2FAC4A22B2946FD002342D7 /* TokenRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4932B2946FD002342D7 /* TokenRefresher.swift */; };
+		F2FAC4A32B2946FD002342D7 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4942B2946FD002342D7 /* TokenManager.swift */; };
+		F2FAC4A42B2946FD002342D7 /* AuthApiCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4952B2946FD002342D7 /* AuthApiCommon.swift */; };
+		F2FAC4A52B2946FD002342D7 /* AuthRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4962B2946FD002342D7 /* AuthRequestAdapter.swift */; };
+		F2FAC4A62B2946FD002342D7 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4972B2946FD002342D7 /* AuthController.swift */; };
+		F2FAC4A72B2946FD002342D7 /* AuthRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4982B2946FD002342D7 /* AuthRequestRetrier.swift */; };
+		F2FAC4A82B2946FD002342D7 /* MigrateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4992B2946FD002342D7 /* MigrateManager.swift */; };
+		F2FAC4A92B2946FD002342D7 /* TokenManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC49A2B2946FD002342D7 /* TokenManagable.swift */; };
+		F2FAC4AB2B2946FD002342D7 /* OAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC49D2B2946FD002342D7 /* OAuthToken.swift */; };
+		F2FAC4CB2B294721002342D7 /* ApiRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4AF2B294721002342D7 /* ApiRequestAdapter.swift */; };
+		F2FAC4CC2B294721002342D7 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B02B294721002342D7 /* Api.swift */; };
+		F2FAC4CE2B294721002342D7 /* EncodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B42B294721002342D7 /* EncodingContainer+AnyCollection.swift */; };
+		F2FAC4CF2B294721002342D7 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B52B294721002342D7 /* URL+Utils.swift */; };
+		F2FAC4D02B294721002342D7 /* Data+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B62B294721002342D7 /* Data+Utils.swift */; };
+		F2FAC4D12B294721002342D7 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B72B294721002342D7 /* Array+Utils.swift */; };
+		F2FAC4D22B294721002342D7 /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B82B294721002342D7 /* Dictionary+Utils.swift */; };
+		F2FAC4D32B294721002342D7 /* DecodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4B92B294721002342D7 /* DecodingContainer+AnyCollection.swift */; };
+		F2FAC4D42B294721002342D7 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4BA2B294721002342D7 /* Date+Utils.swift */; };
+		F2FAC4D52B294721002342D7 /* UIApplication+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4BB2B294721002342D7 /* UIApplication+Utils.swift */; };
+		F2FAC4D62B294721002342D7 /* SdkCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4BD2B294721002342D7 /* SdkCrypto.swift */; };
+		F2FAC4D72B294721002342D7 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4BE2B294721002342D7 /* Properties.swift */; };
+		F2FAC4D82B294721002342D7 /* SdkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4BF2B294721002342D7 /* SdkUtils.swift */; };
+		F2FAC4D92B294721002342D7 /* SdkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C02B294721002342D7 /* SdkLog.swift */; };
+		F2FAC4DA2B294721002342D7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C12B294721002342D7 /* Common.swift */; };
+		F2FAC4DB2B294721002342D7 /* SdkCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C22B294721002342D7 /* SdkCoder.swift */; };
+		F2FAC4DC2B294721002342D7 /* SdkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C32B294721002342D7 /* SdkError.swift */; };
+		F2FAC4DD2B294721002342D7 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C42B294721002342D7 /* Urls.swift */; };
+		F2FAC4DE2B294721002342D7 /* AuthErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C62B294721002342D7 /* AuthErrorInfo.swift */; };
+		F2FAC4DF2B294721002342D7 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C72B294721002342D7 /* ErrorInfo.swift */; };
+		F2FAC4E02B294721002342D7 /* KakaoSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4C82B294721002342D7 /* KakaoSDKCommon.swift */; };
+		F2FAC4EC2B294755002342D7 /* SharingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E62B294755002342D7 /* SharingResult.swift */; };
+		F2FAC4ED2B294755002342D7 /* ImageUploadResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E72B294755002342D7 /* ImageUploadResult.swift */; };
+		F2FAC4EE2B294755002342D7 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E82B294755002342D7 /* ValidationResult.swift */; };
+		F2FAC4EF2B294755002342D7 /* ShareApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4E92B294755002342D7 /* ShareApi.swift */; };
+		F2FAC4F82B294787002342D7 /* TemplateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4F52B294787002342D7 /* TemplateModels.swift */; };
+		F2FAC5052B2947A6002342D7 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4FB2B2947A6002342D7 /* UserApi.swift */; };
+		F2FAC5072B2947A6002342D7 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4FE2B2947A6002342D7 /* Scope.swift */; };
+		F2FAC5082B2947A6002342D7 /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4FF2B2947A6002342D7 /* AccessTokenInfo.swift */; };
+		F2FAC5092B2947A6002342D7 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC5002B2947A6002342D7 /* UserShippingAddresses.swift */; };
+		F2FAC50A2B2947A6002342D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC5012B2947A6002342D7 /* User.swift */; };
+		F2FAC50B2B2947A6002342D7 /* UserServiceTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC5022B2947A6002342D7 /* UserServiceTerms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,59 +192,76 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		029348E4D5A43BB767DEC541 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
-		13D871BE994AAA4F2275B619 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
-		14F41893A1C85D8ACD907CA7 /* UIApplication+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Utils.swift"; sourceTree = "<group>"; };
-		15638190DB41DD8FD05744C8 /* SharingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingResult.swift; sourceTree = "<group>"; };
-		1878AC4DC846769CEF6C5066 /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
-		2AF8AE647C1EB94FD865EA22 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Utils.swift"; sourceTree = "<group>"; };
-		31F08872C5FC79187040E8C3 /* URL+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Utils.swift"; sourceTree = "<group>"; };
 		4440513A0951D6A84B87F95A /* KakaoSDKUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KakaoSDKUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A0A0D89A1F17E82D5897B1B /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
-		5D8DB725D827265FA926EB57 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
-		6111CD8A5239C7077BDB422B /* ImageUploadResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadResult.swift; sourceTree = "<group>"; };
-		65AC99A4E0154DA932F90B84 /* MigrateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrateManager.swift; sourceTree = "<group>"; };
-		66C23A8696A36355257E006F /* Data+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Utils.swift"; sourceTree = "<group>"; };
 		68EC8021E607995484557681 /* KakaoSDKAuth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KakaoSDKAuth-Info.plist"; sourceTree = "<group>"; };
-		74B29B8FC9CDE020440A8458 /* SdkCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkCoder.swift; sourceTree = "<group>"; };
-		77679BCAE026A439A0BF589D /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
-		7D10456FB7BA90C7B8B39F73 /* SdkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkError.swift; sourceTree = "<group>"; };
-		81E19D54414C72BF77675B83 /* Array+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
 		88765651B98DFC3B078E9161 /* KakaoSDKShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KakaoSDKShare-Info.plist"; sourceTree = "<group>"; };
-		93D0518143C7B074D8C95AA4 /* AccessTokenInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenInfo.swift; sourceTree = "<group>"; };
-		981A8974F72C895F697E3836 /* UserServiceTerms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceTerms.swift; sourceTree = "<group>"; };
-		9948110D0ADCE4C673D83505 /* UserShippingAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserShippingAddresses.swift; sourceTree = "<group>"; };
 		9A06A8764CA37A5F9A7EDB66 /* KakaoSDKTemplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KakaoSDKTemplate-Info.plist"; sourceTree = "<group>"; };
 		9AA946A49C6D6195D146A851 /* KakaoSDKCommon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KakaoSDKCommon-Info.plist"; sourceTree = "<group>"; };
 		9AFC260A8C2D21C7599563DD /* KakaoSDKAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KakaoSDKAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC0834B3D826E20C49D8F65 /* KakaoSDKShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KakaoSDKShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1BF4E5D7DC2DA1C4CF17A1D /* ShareApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareApi.swift; sourceTree = "<group>"; };
 		A2D196A7B29975B17592DF93 /* KakaoSDKTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KakaoSDKTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4244622EDE1F4E07D486D0C /* ApiRequestAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestAdapter.swift; sourceTree = "<group>"; };
-		A8F4F028225D75836BF9F442 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
-		AAD76C8A4F14C62F102C532B /* EncodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EncodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
 		AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KakaoSDKCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B08EC897B8BF00956812E71F /* TokenManagable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManagable.swift; sourceTree = "<group>"; };
-		B0E7CC90257247C2BCADF806 /* ErrorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
-		B11D7251BB7CC085DC6FDA46 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		B38C69F3D0FAB76181CD0AAD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B71496B160CA750902A24C4C /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
-		BF0E6D2DE6EB3DC793433CB8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		C0D8B01ADFAC0B3D3545E121 /* SdkLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkLog.swift; sourceTree = "<group>"; };
-		C14F43583C099CA87EC702CF /* Scope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scope.swift; sourceTree = "<group>"; };
-		D057EDABEC77607F987B4FCD /* DecodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DecodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
-		D37FDAE89DC6F794C46B7C07 /* AuthErrorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthErrorInfo.swift; sourceTree = "<group>"; };
-		D76280ED49906035104F24BC /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		DA34E13320151E055BFC74B3 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		E0DD6D71231578086CE0EE63 /* KakaoSDKUser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KakaoSDKUser-Info.plist"; sourceTree = "<group>"; };
-		E11F8ADE7A6F076FE225B8A7 /* OAuthToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthToken.swift; sourceTree = "<group>"; };
-		E929032CDCBA30976BA07177 /* KakaoSDKCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSDKCommon.swift; sourceTree = "<group>"; };
-		F1E7B7815B32EF96A92FE42A /* SdkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkUtils.swift; sourceTree = "<group>"; };
 		F2E439592B22AA36005236C3 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
-		F2ECD15CEA35FB0FF6A34060 /* AuthRequestAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestAdapter.swift; sourceTree = "<group>"; };
-		F7B7662968356D271181B22F /* AuthRequestRetrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestRetrier.swift; sourceTree = "<group>"; };
-		F956F1181223D0A595E83083 /* SdkCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkCrypto.swift; sourceTree = "<group>"; };
-		FE1841EE9773FD21A3F75980 /* TemplateModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateModels.swift; sourceTree = "<group>"; };
+		F2FAC4912B2946FD002342D7 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		F2FAC4922B2946FD002342D7 /* AuthApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		F2FAC4932B2946FD002342D7 /* TokenRefresher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenRefresher.swift; sourceTree = "<group>"; };
+		F2FAC4942B2946FD002342D7 /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		F2FAC4952B2946FD002342D7 /* AuthApiCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApiCommon.swift; sourceTree = "<group>"; };
+		F2FAC4962B2946FD002342D7 /* AuthRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRequestAdapter.swift; sourceTree = "<group>"; };
+		F2FAC4972B2946FD002342D7 /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		F2FAC4982B2946FD002342D7 /* AuthRequestRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRequestRetrier.swift; sourceTree = "<group>"; };
+		F2FAC4992B2946FD002342D7 /* MigrateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MigrateManager.swift; sourceTree = "<group>"; };
+		F2FAC49A2B2946FD002342D7 /* TokenManagable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManagable.swift; sourceTree = "<group>"; };
+		F2FAC49B2B2946FD002342D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2FAC49D2B2946FD002342D7 /* OAuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthToken.swift; sourceTree = "<group>"; };
+		F2FAC49E2B2946FD002342D7 /* KakaoSDKAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKAuth.h; sourceTree = "<group>"; };
+		F2FAC49F2B2946FD002342D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FAC4AF2B294721002342D7 /* ApiRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequestAdapter.swift; sourceTree = "<group>"; };
+		F2FAC4B02B294721002342D7 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		F2FAC4B12B294721002342D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2FAC4B42B294721002342D7 /* EncodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EncodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
+		F2FAC4B52B294721002342D7 /* URL+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Utils.swift"; sourceTree = "<group>"; };
+		F2FAC4B62B294721002342D7 /* Data+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Utils.swift"; sourceTree = "<group>"; };
+		F2FAC4B72B294721002342D7 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		F2FAC4B82B294721002342D7 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Utils.swift"; sourceTree = "<group>"; };
+		F2FAC4B92B294721002342D7 /* DecodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DecodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
+		F2FAC4BA2B294721002342D7 /* Date+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		F2FAC4BB2B294721002342D7 /* UIApplication+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Utils.swift"; sourceTree = "<group>"; };
+		F2FAC4BD2B294721002342D7 /* SdkCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkCrypto.swift; sourceTree = "<group>"; };
+		F2FAC4BE2B294721002342D7 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		F2FAC4BF2B294721002342D7 /* SdkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkUtils.swift; sourceTree = "<group>"; };
+		F2FAC4C02B294721002342D7 /* SdkLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkLog.swift; sourceTree = "<group>"; };
+		F2FAC4C12B294721002342D7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F2FAC4C22B294721002342D7 /* SdkCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkCoder.swift; sourceTree = "<group>"; };
+		F2FAC4C32B294721002342D7 /* SdkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkError.swift; sourceTree = "<group>"; };
+		F2FAC4C42B294721002342D7 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		F2FAC4C62B294721002342D7 /* AuthErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthErrorInfo.swift; sourceTree = "<group>"; };
+		F2FAC4C72B294721002342D7 /* ErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
+		F2FAC4C82B294721002342D7 /* KakaoSDKCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakaoSDKCommon.swift; sourceTree = "<group>"; };
+		F2FAC4C92B294721002342D7 /* KakaoSDKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKCommon.h; sourceTree = "<group>"; };
+		F2FAC4CA2B294721002342D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FAC4E32B294755002342D7 /* KakaoSDKShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKShare.h; sourceTree = "<group>"; };
+		F2FAC4E42B294755002342D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2FAC4E62B294755002342D7 /* SharingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingResult.swift; sourceTree = "<group>"; };
+		F2FAC4E72B294755002342D7 /* ImageUploadResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadResult.swift; sourceTree = "<group>"; };
+		F2FAC4E82B294755002342D7 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		F2FAC4E92B294755002342D7 /* ShareApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareApi.swift; sourceTree = "<group>"; };
+		F2FAC4EA2B294755002342D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FAC4F22B294787002342D7 /* KakaoSDKTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKTemplate.h; sourceTree = "<group>"; };
+		F2FAC4F32B294787002342D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2FAC4F52B294787002342D7 /* TemplateModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateModels.swift; sourceTree = "<group>"; };
+		F2FAC4F62B294787002342D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FAC4FB2B2947A6002342D7 /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		F2FAC4FC2B2947A6002342D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2FAC4FE2B2947A6002342D7 /* Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scope.swift; sourceTree = "<group>"; };
+		F2FAC4FF2B2947A6002342D7 /* AccessTokenInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenInfo.swift; sourceTree = "<group>"; };
+		F2FAC5002B2947A6002342D7 /* UserShippingAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserShippingAddresses.swift; sourceTree = "<group>"; };
+		F2FAC5012B2947A6002342D7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2FAC5022B2947A6002342D7 /* UserServiceTerms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServiceTerms.swift; sourceTree = "<group>"; };
+		F2FAC5032B2947A6002342D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FAC5042B2947A6002342D7 /* KakaoSDKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoSDKUser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,21 +303,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		096EDBD4B0687E445BC8E909 /* common */ = {
-			isa = PBXGroup;
-			children = (
-				D76280ED49906035104F24BC /* Common.swift */,
-				77679BCAE026A439A0BF589D /* Properties.swift */,
-				74B29B8FC9CDE020440A8458 /* SdkCoder.swift */,
-				F956F1181223D0A595E83083 /* SdkCrypto.swift */,
-				7D10456FB7BA90C7B8B39F73 /* SdkError.swift */,
-				C0D8B01ADFAC0B3D3545E121 /* SdkLog.swift */,
-				F1E7B7815B32EF96A92FE42A /* SdkUtils.swift */,
-				B11D7251BB7CC085DC6FDA46 /* Urls.swift */,
-			);
-			path = common;
-			sourceTree = "<group>";
-		};
 		1B26D82CF9B573B2518E2A15 = {
 			isa = PBXGroup;
 			children = (
@@ -317,31 +321,6 @@
 			path = Derived;
 			sourceTree = "<group>";
 		};
-		25B26188E62DF4BE20E8D196 /* auth */ = {
-			isa = PBXGroup;
-			children = (
-				5D8DB725D827265FA926EB57 /* Auth.swift */,
-				029348E4D5A43BB767DEC541 /* AuthApi.swift */,
-				5A0A0D89A1F17E82D5897B1B /* AuthController.swift */,
-				F2ECD15CEA35FB0FF6A34060 /* AuthRequestAdapter.swift */,
-				F7B7662968356D271181B22F /* AuthRequestRetrier.swift */,
-				65AC99A4E0154DA932F90B84 /* MigrateManager.swift */,
-				B08EC897B8BF00956812E71F /* TokenManagable.swift */,
-				1878AC4DC846769CEF6C5066 /* TokenManager.swift */,
-			);
-			path = auth;
-			sourceTree = "<group>";
-		};
-		3556E37341E06E537E88CDB2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				6111CD8A5239C7077BDB422B /* ImageUploadResult.swift */,
-				15638190DB41DD8FD05744C8 /* SharingResult.swift */,
-				B71496B160CA750902A24C4C /* ValidationResult.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		46BBF5A544E5A83A97F67C00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,17 +334,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49D7F4BB72B0C81CAF02D2A4 /* common */ = {
-			isa = PBXGroup;
-			children = (
-				096EDBD4B0687E445BC8E909 /* common */,
-				FE637B6C6C6FE1FA885E741A /* extension */,
-				AFFC0C870177041F0528C8EB /* model */,
-				E929032CDCBA30976BA07177 /* KakaoSDKCommon.swift */,
-			);
-			path = common;
-			sourceTree = "<group>";
-		};
 		5D3B15706E392EF764A90172 /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,31 +344,6 @@
 				E0DD6D71231578086CE0EE63 /* KakaoSDKUser-Info.plist */,
 			);
 			path = InfoPlists;
-			sourceTree = "<group>";
-		};
-		603F1A436266B3C0AF0C1B62 /* KakaoSDKShare */ = {
-			isa = PBXGroup;
-			children = (
-				3556E37341E06E537E88CDB2 /* model */,
-				A1BF4E5D7DC2DA1C4CF17A1D /* ShareApi.swift */,
-			);
-			path = KakaoSDKShare;
-			sourceTree = "<group>";
-		};
-		61FA96310A8B433E3B58A3C0 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				E11F8ADE7A6F076FE225B8A7 /* OAuthToken.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		7E51185B535DA583B33C18D9 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				FE1841EE9773FD21A3F75980 /* TemplateModels.swift */,
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 		AA22D1E92CF37374E7CE9C92 /* Project */ = {
@@ -419,96 +362,194 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AFDA258F78CB70F3001C9C53 /* KakaoSDKUser */ = {
-			isa = PBXGroup;
-			children = (
-				F579640A4F41E3DF0EDF57A9 /* model */,
-				A8F4F028225D75836BF9F442 /* UserApi.swift */,
-			);
-			path = KakaoSDKUser;
-			sourceTree = "<group>";
-		};
-		AFFC0C870177041F0528C8EB /* model */ = {
-			isa = PBXGroup;
-			children = (
-				D37FDAE89DC6F794C46B7C07 /* AuthErrorInfo.swift */,
-				B0E7CC90257247C2BCADF806 /* ErrorInfo.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		B1D9E0AC7FF861351070A374 /* network */ = {
-			isa = PBXGroup;
-			children = (
-				DA34E13320151E055BFC74B3 /* Api.swift */,
-				A4244622EDE1F4E07D486D0C /* ApiRequestAdapter.swift */,
-			);
-			path = network;
-			sourceTree = "<group>";
-		};
 		B88DCE11BE6D4703A4D53DFA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DEE104352B8217C617EC822A /* KakaoSDKAuth */,
-				F6A45AA0DF806426A3FF963C /* KakaoSDKCommon */,
-				603F1A436266B3C0AF0C1B62 /* KakaoSDKShare */,
-				BFCEC6D9A3BC7CE2CEFDD940 /* KakaoSDKTemplate */,
-				AFDA258F78CB70F3001C9C53 /* KakaoSDKUser */,
+				F2FAC4FA2B2947A6002342D7 /* KakaoSDKUser */,
+				F2FAC4F12B294787002342D7 /* KakaoSDKTemplate */,
+				F2FAC4E22B294755002342D7 /* KakaoSDKShare */,
+				F2FAC4AD2B294721002342D7 /* KakaoSDKCommon */,
+				F2FAC48F2B2946FD002342D7 /* KakaoSDKAuth */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		BFCEC6D9A3BC7CE2CEFDD940 /* KakaoSDKTemplate */ = {
+		F2FAC48F2B2946FD002342D7 /* KakaoSDKAuth */ = {
 			isa = PBXGroup;
 			children = (
-				7E51185B535DA583B33C18D9 /* model */,
+				F2FAC4902B2946FD002342D7 /* auth */,
+				F2FAC49B2B2946FD002342D7 /* README.md */,
+				F2FAC49C2B2946FD002342D7 /* model */,
+				F2FAC49E2B2946FD002342D7 /* KakaoSDKAuth.h */,
+				F2FAC49F2B2946FD002342D7 /* Info.plist */,
 			);
-			path = KakaoSDKTemplate;
+			name = KakaoSDKAuth;
+			path = sources/KakaoSDKAuth;
+			sourceTree = SOURCE_ROOT;
+		};
+		F2FAC4902B2946FD002342D7 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4912B2946FD002342D7 /* Auth.swift */,
+				F2FAC4922B2946FD002342D7 /* AuthApi.swift */,
+				F2FAC4932B2946FD002342D7 /* TokenRefresher.swift */,
+				F2FAC4942B2946FD002342D7 /* TokenManager.swift */,
+				F2FAC4952B2946FD002342D7 /* AuthApiCommon.swift */,
+				F2FAC4962B2946FD002342D7 /* AuthRequestAdapter.swift */,
+				F2FAC4972B2946FD002342D7 /* AuthController.swift */,
+				F2FAC4982B2946FD002342D7 /* AuthRequestRetrier.swift */,
+				F2FAC4992B2946FD002342D7 /* MigrateManager.swift */,
+				F2FAC49A2B2946FD002342D7 /* TokenManagable.swift */,
+			);
+			path = auth;
 			sourceTree = "<group>";
 		};
-		DEE104352B8217C617EC822A /* KakaoSDKAuth */ = {
+		F2FAC49C2B2946FD002342D7 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				25B26188E62DF4BE20E8D196 /* auth */,
-				61FA96310A8B433E3B58A3C0 /* model */,
-			);
-			path = KakaoSDKAuth;
-			sourceTree = "<group>";
-		};
-		F579640A4F41E3DF0EDF57A9 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				93D0518143C7B074D8C95AA4 /* AccessTokenInfo.swift */,
-				C14F43583C099CA87EC702CF /* Scope.swift */,
-				BF0E6D2DE6EB3DC793433CB8 /* User.swift */,
-				981A8974F72C895F697E3836 /* UserServiceTerms.swift */,
-				9948110D0ADCE4C673D83505 /* UserShippingAddresses.swift */,
+				F2FAC49D2B2946FD002342D7 /* OAuthToken.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
 		};
-		F6A45AA0DF806426A3FF963C /* KakaoSDKCommon */ = {
+		F2FAC4AD2B294721002342D7 /* KakaoSDKCommon */ = {
 			isa = PBXGroup;
 			children = (
-				49D7F4BB72B0C81CAF02D2A4 /* common */,
-				B1D9E0AC7FF861351070A374 /* network */,
+				F2FAC4AE2B294721002342D7 /* network */,
+				F2FAC4B12B294721002342D7 /* README.md */,
+				F2FAC4B22B294721002342D7 /* common */,
+				F2FAC4C92B294721002342D7 /* KakaoSDKCommon.h */,
+				F2FAC4CA2B294721002342D7 /* Info.plist */,
 			);
-			path = KakaoSDKCommon;
+			name = KakaoSDKCommon;
+			path = sources/KakaoSDKCommon;
+			sourceTree = SOURCE_ROOT;
+		};
+		F2FAC4AE2B294721002342D7 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4AF2B294721002342D7 /* ApiRequestAdapter.swift */,
+				F2FAC4B02B294721002342D7 /* Api.swift */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
-		FE637B6C6C6FE1FA885E741A /* extension */ = {
+		F2FAC4B22B294721002342D7 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				81E19D54414C72BF77675B83 /* Array+Utils.swift */,
-				66C23A8696A36355257E006F /* Data+Utils.swift */,
-				13D871BE994AAA4F2275B619 /* Date+Utils.swift */,
-				D057EDABEC77607F987B4FCD /* DecodingContainer+AnyCollection.swift */,
-				2AF8AE647C1EB94FD865EA22 /* Dictionary+Utils.swift */,
-				AAD76C8A4F14C62F102C532B /* EncodingContainer+AnyCollection.swift */,
-				14F41893A1C85D8ACD907CA7 /* UIApplication+Utils.swift */,
-				31F08872C5FC79187040E8C3 /* URL+Utils.swift */,
+				F2FAC4B32B294721002342D7 /* extension */,
+				F2FAC4BC2B294721002342D7 /* common */,
+				F2FAC4C52B294721002342D7 /* model */,
+				F2FAC4C82B294721002342D7 /* KakaoSDKCommon.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F2FAC4B32B294721002342D7 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4B42B294721002342D7 /* EncodingContainer+AnyCollection.swift */,
+				F2FAC4B52B294721002342D7 /* URL+Utils.swift */,
+				F2FAC4B62B294721002342D7 /* Data+Utils.swift */,
+				F2FAC4B72B294721002342D7 /* Array+Utils.swift */,
+				F2FAC4B82B294721002342D7 /* Dictionary+Utils.swift */,
+				F2FAC4B92B294721002342D7 /* DecodingContainer+AnyCollection.swift */,
+				F2FAC4BA2B294721002342D7 /* Date+Utils.swift */,
+				F2FAC4BB2B294721002342D7 /* UIApplication+Utils.swift */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		F2FAC4BC2B294721002342D7 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4BD2B294721002342D7 /* SdkCrypto.swift */,
+				F2FAC4BE2B294721002342D7 /* Properties.swift */,
+				F2FAC4BF2B294721002342D7 /* SdkUtils.swift */,
+				F2FAC4C02B294721002342D7 /* SdkLog.swift */,
+				F2FAC4C12B294721002342D7 /* Common.swift */,
+				F2FAC4C22B294721002342D7 /* SdkCoder.swift */,
+				F2FAC4C32B294721002342D7 /* SdkError.swift */,
+				F2FAC4C42B294721002342D7 /* Urls.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F2FAC4C52B294721002342D7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4C62B294721002342D7 /* AuthErrorInfo.swift */,
+				F2FAC4C72B294721002342D7 /* ErrorInfo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F2FAC4E22B294755002342D7 /* KakaoSDKShare */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4E32B294755002342D7 /* KakaoSDKShare.h */,
+				F2FAC4E42B294755002342D7 /* README.md */,
+				F2FAC4E52B294755002342D7 /* model */,
+				F2FAC4E92B294755002342D7 /* ShareApi.swift */,
+				F2FAC4EA2B294755002342D7 /* Info.plist */,
+			);
+			name = KakaoSDKShare;
+			path = sources/KakaoSDKShare;
+			sourceTree = SOURCE_ROOT;
+		};
+		F2FAC4E52B294755002342D7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4E62B294755002342D7 /* SharingResult.swift */,
+				F2FAC4E72B294755002342D7 /* ImageUploadResult.swift */,
+				F2FAC4E82B294755002342D7 /* ValidationResult.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F2FAC4F12B294787002342D7 /* KakaoSDKTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4F22B294787002342D7 /* KakaoSDKTemplate.h */,
+				F2FAC4F32B294787002342D7 /* README.md */,
+				F2FAC4F42B294787002342D7 /* model */,
+				F2FAC4F62B294787002342D7 /* Info.plist */,
+			);
+			name = KakaoSDKTemplate;
+			path = sources/KakaoSDKTemplate;
+			sourceTree = SOURCE_ROOT;
+		};
+		F2FAC4F42B294787002342D7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4F52B294787002342D7 /* TemplateModels.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F2FAC4FA2B2947A6002342D7 /* KakaoSDKUser */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4FB2B2947A6002342D7 /* UserApi.swift */,
+				F2FAC4FC2B2947A6002342D7 /* README.md */,
+				F2FAC4FD2B2947A6002342D7 /* model */,
+				F2FAC5032B2947A6002342D7 /* Info.plist */,
+				F2FAC5042B2947A6002342D7 /* KakaoSDKUser.h */,
+			);
+			name = KakaoSDKUser;
+			path = sources/KakaoSDKUser;
+			sourceTree = SOURCE_ROOT;
+		};
+		F2FAC4FD2B2947A6002342D7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAC4FE2B2947A6002342D7 /* Scope.swift */,
+				F2FAC4FF2B2947A6002342D7 /* AccessTokenInfo.swift */,
+				F2FAC5002B2947A6002342D7 /* UserShippingAddresses.swift */,
+				F2FAC5012B2947A6002342D7 /* User.swift */,
+				F2FAC5022B2947A6002342D7 /* UserServiceTerms.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -687,27 +728,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E31EE5846122171BDAEE748 /* KakaoSDKCommon.swift in Sources */,
-				234D7809A8B0829F534700C6 /* Common.swift in Sources */,
-				3D838F46566C63FC04D8EDFC /* Properties.swift in Sources */,
-				A0BFD2C651142313E9801372 /* SdkCoder.swift in Sources */,
-				66F18B39FD1E20031DD4FEB7 /* SdkCrypto.swift in Sources */,
-				D36C77329795F40DE6F41D7C /* SdkError.swift in Sources */,
-				5B64DC45FD9E74772DEEEA1D /* SdkLog.swift in Sources */,
-				84D117B77D2A327F0BF1C4ED /* SdkUtils.swift in Sources */,
-				1083830E239AC6DCA623D414 /* Urls.swift in Sources */,
-				5DCD033C930668E1E9A4B12E /* Array+Utils.swift in Sources */,
-				BF63A8B3305DBC974B801470 /* Data+Utils.swift in Sources */,
-				2CFA6BACF647C253767C7BDB /* Date+Utils.swift in Sources */,
-				06DEAF796B9072961C8CECFF /* DecodingContainer+AnyCollection.swift in Sources */,
-				7BDADE904341E9CDDE68A782 /* Dictionary+Utils.swift in Sources */,
-				88C2AC3EA77317E595E5CBBF /* EncodingContainer+AnyCollection.swift in Sources */,
-				F422EF6C4C97F6066534D1ED /* UIApplication+Utils.swift in Sources */,
-				8F9590AB774C8327E48F533B /* URL+Utils.swift in Sources */,
-				B35EE7CE2B95EDCEACBB1333 /* AuthErrorInfo.swift in Sources */,
-				B2375C6049006E4125AE5F8A /* ErrorInfo.swift in Sources */,
-				88893378866D0FBAD4A5BF4E /* Api.swift in Sources */,
-				61D6CD66DC4805A704605B4E /* ApiRequestAdapter.swift in Sources */,
+				F2FAC4D72B294721002342D7 /* Properties.swift in Sources */,
+				F2FAC4DE2B294721002342D7 /* AuthErrorInfo.swift in Sources */,
+				F2FAC4D22B294721002342D7 /* Dictionary+Utils.swift in Sources */,
+				F2FAC4D42B294721002342D7 /* Date+Utils.swift in Sources */,
+				F2FAC4CC2B294721002342D7 /* Api.swift in Sources */,
+				F2FAC4D62B294721002342D7 /* SdkCrypto.swift in Sources */,
+				F2FAC4D12B294721002342D7 /* Array+Utils.swift in Sources */,
+				F2FAC4D82B294721002342D7 /* SdkUtils.swift in Sources */,
+				F2FAC4CF2B294721002342D7 /* URL+Utils.swift in Sources */,
+				F2FAC4DB2B294721002342D7 /* SdkCoder.swift in Sources */,
+				F2FAC4DD2B294721002342D7 /* Urls.swift in Sources */,
+				F2FAC4CE2B294721002342D7 /* EncodingContainer+AnyCollection.swift in Sources */,
+				F2FAC4D92B294721002342D7 /* SdkLog.swift in Sources */,
+				F2FAC4D52B294721002342D7 /* UIApplication+Utils.swift in Sources */,
+				F2FAC4E02B294721002342D7 /* KakaoSDKCommon.swift in Sources */,
+				F2FAC4CB2B294721002342D7 /* ApiRequestAdapter.swift in Sources */,
+				F2FAC4D02B294721002342D7 /* Data+Utils.swift in Sources */,
+				F2FAC4DF2B294721002342D7 /* ErrorInfo.swift in Sources */,
+				F2FAC4DC2B294721002342D7 /* SdkError.swift in Sources */,
+				F2FAC4DA2B294721002342D7 /* Common.swift in Sources */,
+				F2FAC4D32B294721002342D7 /* DecodingContainer+AnyCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,12 +756,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA959ECACD73EA21318EAAA /* UserApi.swift in Sources */,
-				D83CC49FD9E905F67CF2CB8E /* AccessTokenInfo.swift in Sources */,
-				B37BF2CA54417589347BED47 /* Scope.swift in Sources */,
-				1EA8C330BBDC81379F4BCA82 /* User.swift in Sources */,
-				49680630C7F1B66638C012CB /* UserServiceTerms.swift in Sources */,
-				CB857D13A2B756A6051EBC03 /* UserShippingAddresses.swift in Sources */,
+				F2FAC5072B2947A6002342D7 /* Scope.swift in Sources */,
+				F2FAC5092B2947A6002342D7 /* UserShippingAddresses.swift in Sources */,
+				F2FAC5052B2947A6002342D7 /* UserApi.swift in Sources */,
+				F2FAC50A2B2947A6002342D7 /* User.swift in Sources */,
+				F2FAC50B2B2947A6002342D7 /* UserServiceTerms.swift in Sources */,
+				F2FAC5082B2947A6002342D7 /* AccessTokenInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,7 +769,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DF9FD6E56F72FB3838AE6E /* TemplateModels.swift in Sources */,
+				F2FAC4F82B294787002342D7 /* TemplateModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,10 +777,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224F5C1E8021C315F3C9C239 /* ShareApi.swift in Sources */,
-				B6C1D92AAD9027F6DC244B82 /* ImageUploadResult.swift in Sources */,
-				C0781C8D2BF0F2503E68FFB4 /* SharingResult.swift in Sources */,
-				60405CA75AE48B453FDF84AC /* ValidationResult.swift in Sources */,
+				F2FAC4EC2B294755002342D7 /* SharingResult.swift in Sources */,
+				F2FAC4ED2B294755002342D7 /* ImageUploadResult.swift in Sources */,
+				F2FAC4EF2B294755002342D7 /* ShareApi.swift in Sources */,
+				F2FAC4EE2B294755002342D7 /* ValidationResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,15 +788,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9916EAD0D7C51D8C8EA0FA49 /* Auth.swift in Sources */,
-				207B6CE3525E5A958DEE1C4C /* AuthApi.swift in Sources */,
-				FD7044C284A10965D2619C10 /* AuthController.swift in Sources */,
-				50C5B57A54FF356D521AE9A2 /* AuthRequestAdapter.swift in Sources */,
-				D478D21F3972C267AC8B0F19 /* AuthRequestRetrier.swift in Sources */,
-				3A29C66078FBD8BC4CA5172C /* MigrateManager.swift in Sources */,
-				4E38470AB06D559ED4EBBDEF /* TokenManagable.swift in Sources */,
-				497BCF1F0E3760A9A6E3D278 /* TokenManager.swift in Sources */,
-				C34C90F889D5987ED71B7F96 /* OAuthToken.swift in Sources */,
+				F2FAC4A42B2946FD002342D7 /* AuthApiCommon.swift in Sources */,
+				F2FAC4A22B2946FD002342D7 /* TokenRefresher.swift in Sources */,
+				F2FAC4A92B2946FD002342D7 /* TokenManagable.swift in Sources */,
+				F2FAC4A32B2946FD002342D7 /* TokenManager.swift in Sources */,
+				F2FAC4A72B2946FD002342D7 /* AuthRequestRetrier.swift in Sources */,
+				F2FAC4A52B2946FD002342D7 /* AuthRequestAdapter.swift in Sources */,
+				F2FAC4A12B2946FD002342D7 /* AuthApi.swift in Sources */,
+				F2FAC4AB2B2946FD002342D7 /* OAuthToken.swift in Sources */,
+				F2FAC4A62B2946FD002342D7 /* AuthController.swift in Sources */,
+				F2FAC4A82B2946FD002342D7 /* MigrateManager.swift in Sources */,
+				F2FAC4A02B2946FD002342D7 /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
