@@ -88,5 +88,9 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
 # etc
 .DS_Store
