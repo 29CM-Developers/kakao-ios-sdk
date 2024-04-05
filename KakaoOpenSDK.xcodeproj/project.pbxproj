@@ -12,6 +12,7 @@
 		793CB7E08CBB14A458D7CA64 /* KakaoSDKAuth.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 9AFC260A8C2D21C7599563DD /* KakaoSDKAuth.framework */; };
 		EDDB71F393AB45B4D4541C57 /* KakaoSDKCommon.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */; };
 		F1C77979DF4D6E97A87B49DB /* KakaoSDKCommon.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */; };
+		F21B71E92BBFB146004ED41A /* UserApi+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B71E82BBFB146004ED41A /* UserApi+Internal.swift */; };
 		F2E4395A2B22AA36005236C3 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2E439592B22AA36005236C3 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2FAC4A02B2946FD002342D7 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4912B2946FD002342D7 /* Auth.swift */; };
 		F2FAC4A12B2946FD002342D7 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAC4922B2946FD002342D7 /* AuthApi.swift */; };
@@ -203,6 +204,7 @@
 		AB474396BE039F4B363568CE /* KakaoSDKCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KakaoSDKCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38C69F3D0FAB76181CD0AAD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DD6D71231578086CE0EE63 /* KakaoSDKUser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KakaoSDKUser-Info.plist"; sourceTree = "<group>"; };
+		F21B71E82BBFB146004ED41A /* UserApi+Internal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserApi+Internal.swift"; sourceTree = "<group>"; };
 		F2E439592B22AA36005236C3 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		F2FAC4912B2946FD002342D7 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		F2FAC4922B2946FD002342D7 /* AuthApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
@@ -530,6 +532,7 @@
 		F2FAC4FA2B2947A6002342D7 /* KakaoSDKUser */ = {
 			isa = PBXGroup;
 			children = (
+				F21B71E82BBFB146004ED41A /* UserApi+Internal.swift */,
 				F2FAC4FB2B2947A6002342D7 /* UserApi.swift */,
 				F2FAC4FC2B2947A6002342D7 /* README.md */,
 				F2FAC4FD2B2947A6002342D7 /* model */,
@@ -757,6 +760,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2FAC5072B2947A6002342D7 /* Scope.swift in Sources */,
+				F21B71E92BBFB146004ED41A /* UserApi+Internal.swift in Sources */,
 				F2FAC5092B2947A6002342D7 /* UserShippingAddresses.swift in Sources */,
 				F2FAC5052B2947A6002342D7 /* UserApi.swift in Sources */,
 				F2FAC50A2B2947A6002342D7 /* User.swift in Sources */,
