@@ -32,6 +32,7 @@ public class Hosts {
     public let universalLink : String
     public let cert : String
     public let plusFriend: String
+    public let apps : String
     
     public init(kapi: String = "kapi.kakao.com",
                 dapi: String = "dapi.kakao.com",
@@ -44,7 +45,8 @@ public class Hosts {
                 sharerLink: String = "sharer.kakao.com",
                 universalLink: String = "talk-apps.kakao.com",
                 cert: String = "cert-sign-papi.kakao.com",
-                plusFriend: String = "kakaoplus")
+                plusFriend: String = "kakaoplus",
+                apps: String = "apps.kakao.com")
     {
         self.kapi = kapi
         self.dapi = dapi
@@ -58,6 +60,7 @@ public class Hosts {
         self.universalLink = universalLink
         self.cert = cert
         self.plusFriend = plusFriend
+        self.apps = apps
     }
 }
 
@@ -79,6 +82,7 @@ public enum HostType {
     case UniversalLink
     case Cert
     case PlusFriend
+    case Apps
     
     public var host: String {
         switch self {
@@ -110,6 +114,8 @@ public enum HostType {
             return "http://\(KakaoSDK.shared.hosts().cert)"
         case .PlusFriend:
             return "\(KakaoSDK.shared.hosts().plusFriend)://"
+        case .Apps:
+            return "https://\(KakaoSDK.shared.hosts().apps)"
         }
     }
 }
@@ -141,6 +147,9 @@ public class Paths {
     public static let userScopes = "/v2/user/scopes"
     public static let userRevokeScopes = "/v2/user/revoke/scopes"
     public static let userRevokeServiceTerms = "/v2/user/revoke/service_terms"
+            
+    // shipping address
+    public static let shippingAddressList = "/user/address"
     
     //talk
     public static let talkProfile = "/v1/api/talk/profile"
@@ -148,6 +157,11 @@ public class Paths {
     public static let defaultMemo = "/v2/api/talk/memo/default/send"
     public static let scrapMemo = "/v2/api/talk/memo/scrap/send"    
     public static let channels = "/v2/api/talk/channels"
+    //channel
+    public static let channel = ""
+    
+    //follow channel
+    public static let followChannel = "/talk/channel/follow"
     
     // plusfriend
     public static let channelValidate = "/v1/app/validate/sdk"
@@ -165,8 +179,7 @@ public class Paths {
     public static let selectChats = "/v1/api/talk/chat/list/sdk"
     public static let selectChatMembers = "/v1/api/talk/members/sdk"                
     
-    //channel
-    public static let channel = ""
+
     
     //kakaonavi
     public static let navigateDestination = "navigate"
@@ -201,6 +214,8 @@ public class Paths {
 
     //token refresher
     public static let checkAccessToken = "/v1/user/check_access_token"
+    
+    public static let kpidt = "/auth/kpidt"
 }
 
 #if swift(>=5.8)
