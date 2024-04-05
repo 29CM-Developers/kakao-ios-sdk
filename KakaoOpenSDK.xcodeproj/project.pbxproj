@@ -35,7 +35,6 @@
 		F21B721C2BBFB1CE004ED41A /* AuthErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B72012BBFB1CE004ED41A /* AuthErrorInfo.swift */; };
 		F21B721D2BBFB1CE004ED41A /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B72022BBFB1CE004ED41A /* ErrorInfo.swift */; };
 		F21B721E2BBFB1CE004ED41A /* KakaoSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B72032BBFB1CE004ED41A /* KakaoSDKCommon.swift */; };
-		F21B721F2BBFB1CE004ED41A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F21B72052BBFB1CE004ED41A /* Info.plist */; };
 		F21B72202BBFB1CE004ED41A /* ApiRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B72072BBFB1CE004ED41A /* ApiRequestAdapter.swift */; };
 		F21B72212BBFB1CE004ED41A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B72082BBFB1CE004ED41A /* Api.swift */; };
 		F2E4395A2B22AA36005236C3 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2E439592B22AA36005236C3 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -717,7 +716,6 @@
 			files = (
 				F21B720A2BBFB1CE004ED41A /* README.md in Resources */,
 				F21B72092BBFB1CE004ED41A /* PrivacyInfo.xcprivacy in Resources */,
-				F21B721F2BBFB1CE004ED41A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
